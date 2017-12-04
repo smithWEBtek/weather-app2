@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  background-color: rgba(231, 208, 208, 0.664);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgba(53, 22, 22, 0.664);
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  padding-top: 20px;
+}
+
+.credit {
+  text-align: center;
+  font-size: small;
+}
+
+.forecast-card {
+  border: solid 1px black;
+  padding: 16px;
+  margin: 16px
+}
+
+.nav-button {
+  border: 1px solid rgb(50, 50, 58);
+  color: white;
+  background-color: rgb(99, 113, 150);
+  margin: 12px;
+  padding: 8px;
+}
+
+.nav-button:hover {
+  color: black;
+  border: 1px solid rgb(50, 105, 73);
+  background: white;
+}
+
+.nav-button:focus {
+  outline: 0;
+  color: black;
+  border: 1px solid rgb(50, 105, 73);
+  background: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
